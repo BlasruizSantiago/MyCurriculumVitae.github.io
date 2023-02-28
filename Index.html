@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/Favicon.png">
+    <title> My Curriculum vitae </title>
+</head>
+
+<body>
+    <header>
+        <div class="barra-menu">
+            <a href="#"><img id="logo" src="imagenes/logo.png" alt=""></a>
+            <nav class="nav">
+                <ul>
+                    <li><input class="cambiar-color" id="cambiar" type="button" value="Modo oscuro"
+                            onClick="cambiarColor()"></li>
+                    <li><a href="#Info"> Info </a></li>
+                    <li><a href="#Experiencia"> Experiencia </a></li>
+                    <li><a href="#Habilidades"> Habilidades </a></li>
+                    <li><a href="#Contacto"> Contacto </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container">
+        <img src="imagenes/banner.png" alt="">
+        <div class="tarjeta">
+            <img src="imagenes/John Doe.jpg" alt="">
+            <h1> John Doe </h1>
+            <hr>
+            <h1 class="banner-title"> Full Stack Developer</h1>
+        </div>
+    </section>
+    <div class="cuerpo">
+        <br>
+        <h3 id="Info"> información Personal </h3>
+        <hr>
+        <p>
+            Programadora web con más de 5 años de trayectoria desarroladas en el eCommerce.
+            A lo largo de estos años, he tenido el privilegio de formar parte en la creacón de webs como facebook.com e
+            Instagram.com, las cuales han cultivado un grán exito, tanto en tráfico como conversiones.
+            Busco formar parte de alguna empresa enfocada en el uso de distintas tecnologias web para ampliar
+            mi capacidad creativa al siguiente nivel, aportando mis amplios conociminetos en HTML, CSS, JavaScript,
+            entre otros.
+        </p>
+        <h3 id="Experiencia"> Experiencia </h3>
+        <hr>
+        <p> Enero 2019 - Diciembre 2022 </p>
+        <h2> Desarrollador SharePoint X25 informática, Buenos Aires</h2>
+        <l>
+            <li> Elaboración de requisitos funcionales y documentos de especificacion técnicas. </li>
+            <li> Desarrollo de aplicaciones web basadas en tecnologías de Sharepoint Framework. </li>
+            <li> Creación de componentes para transferir datos seguros entre webs y sistemas internos. </li>
+            <li> Elaboración de diseños gráficos con Adobe Photoshop e Illustrator </li>
+        </l>
+        <h2> Logros clave </h2>
+        <l>
+            <li> Diseño de soluciones SharePoint e Intranets corporativas para mas de 10 empresas en expansión.</li>
+        </l>
+        <p> Marzo 2017 - Enero 2019 </p>
+        <h2> Desarrollador web eCommerce, Buenos Aires</h2>
+        <l>
+            <li> Maquetación mediante CSS. </li>
+            <li> Optimización de SEO on page. </li>
+            <li> Programación con JavaScript. </li>
+            <li> Diseño, desarrollo e implementación de interfaces en BBDD </li>
+        </l>
+        <h2> Logros clave </h2>
+        <l>
+            <li>Incremento en un 30% de media en el tráfico de nuestros clientes.</li>
+            <li> Nominacion en los premios Sodeint por mejor diseño web. </li>
+        </l>
+        <h3 id="Habilidades"> Habilidades </h3>
+        <hr>
+        <div class="graficos">
+            <div class="barras">
+                <p class="text-graficos"> HTML </p>
+                <svg style="--porcentaje: 90">
+                    <circle pathlength="100"></circle>
+                    <circle pathlength="100"></circle>
+                </svg>
+                <span> 90% </span>
+            </div>
+            <div class="barras">
+                <p class="text-graficos"> CSS </p>
+                <svg style="--porcentaje: 75">
+                    <circle pathlength="100"></circle>
+                    <circle pathlength="100"></circle>
+                </svg>
+                <span> 75% </span>
+            </div>
+            <div class="barras">
+                <p class="text-graficos"> JavaScript </p>
+                <svg style="--porcentaje: 60">
+                    <circle pathlength="100"></circle>
+                    <circle pathlength="100"></circle>
+                </svg>
+                <span> 60% </span>
+            </div>
+            <div class="barras">
+                <p class="text-graficos"> GitHub </p>
+                <svg style="--porcentaje: 80">
+                    <circle pathlength="100"></circle>
+                    <circle pathlength="100"></circle>
+                </svg>
+                <span> 80% </span>
+            </div>
+            <div class="barras">
+                <p class="text-graficos"> Ingles </p>
+                <svg style="--porcentaje: 70">
+                    <circle pathlength="100"></circle>
+                    <circle pathlength="100"></circle>
+                </svg>
+                <span> 70% </span>
+            </div>
+        </div>
+        <h3 id="Contacto"> Contacto </h3>
+        <hr>
+    </div>
+    <section class="formulario">
+        <div class="box">
+            <input class="control" id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre">
+            <input class="control" id="apellido" type="text" name="apellido" placeholder="Ingrese su apellido">
+            <input class="control" id="email" type="email" name="email" placeholder="example@gmail.com">
+            <input class="control" id="Empresa" type="text" name="Empresa" placeholder="Fulanito Technology S.A">
+            <input class="control" id="mensaje" type="text" name="mensaje" placeholder="Mensaje">
+            <j> Al enviar esto, usted esta aceptando todos los <a href="#"> Terminos y condiciones </a></j>
+            <input class="boton" type="submit" value="Enviar" onclick="aviso()">
+        </div>
+        <div class="box">
+            <l> Numero de telefono: </l>
+            <h1> (011) 1234-5678 </h1>
+            <l> Zona de recidencia actual: </l>
+            <h1> Berazategui, Buenos Aires. </h1>
+            <l> Fecha de nacimiento: </l>
+            <h1> 5/6/1990 </h1>
+            <l> Nacionalidad: </l>
+            <h1> Argentina </h1>
+            <img class="foto-footer" src="Imagenes/John Doe.jpg" alt="foto perfil">
+        </div>
+    </section>
+    <footer>
+        <h6> © copyright 2023 - Estudiante de Argentina Programa 4.0 </h6>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
